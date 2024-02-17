@@ -13,7 +13,7 @@ public class PrimaryTest {
 
     @BeforeEach
     void setUp() {
-        applicationContext = new AnnotationConfigApplicationContext(BeanNameConfiguration.class);
+        applicationContext = new AnnotationConfigApplicationContext(PrimaryConfiguration.class);
     }
 
     @Test
