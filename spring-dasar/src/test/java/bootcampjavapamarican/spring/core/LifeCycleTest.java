@@ -21,7 +21,7 @@ public class LifeCycleTest {
 
     @AfterEach
     void tearDown() {
-        //applicationContext.close();
+        //applicationContext.close(); //tidak perlu karena sudah menggunakan registerShutdownHook.
     }
 
     @Test

@@ -7,12 +7,12 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Server {
 
-    @PostConstruct
+    @PostConstruct //dipanggil ketika bean selesai dibuat.
     public void start(){
         log.info("Start Server");
     }
 
-    @PreDestroy
+    @PreDestroy //dipanggil ketika bean akan dihancurkan.
     public void stop(){
         log.info("Stop Server");
     }
